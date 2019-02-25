@@ -2,21 +2,10 @@ package com.disnel.test;
 
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 
-import com.googlecode.wicket.jquery.core.IJQueryWidget.JQueryWidget;
 import com.googlecode.wicket.jquery.ui.interaction.draggable.DraggableAdapter;
 import com.googlecode.wicket.jquery.ui.interaction.draggable.DraggableBehavior;
 import com.googlecode.wicket.jquery.ui.interaction.droppable.DroppableAdapter;
 import com.googlecode.wicket.jquery.ui.interaction.droppable.DroppableBehavior;
-import com.googlecode.wicket.jquery.ui.interaction.sortable.Sortable;
-
-import org.apache.wicket.markup.html.basic.Label;
-import org.apache.wicket.markup.html.list.ListItem;
-import org.apache.wicket.model.IModel;
-
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 import org.apache.wicket.Component;
 import org.apache.wicket.ajax.AjaxRequestTarget;
 import org.apache.wicket.markup.html.WebMarkupContainer;
